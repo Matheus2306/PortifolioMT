@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-background:#000041;
+  background: #000041;
+  color: #fff;
 }
 .nav-bar {
   display: flex;
   width: 100%;
   height: 100px;
   background: linear-gradient(100deg, #0a046d 2%, #2710f2 100%);
-  color: #fff;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -21,16 +21,14 @@ background:#000041;
   justify-content: space-between;
   align-items: center;
 }
-
 .nav-itens p {
   margin: 0;
   padding: 0;
   width: 20%;
 }
-
 #menu-button {
   background: #13089a;
-  color: white;
+  color: #fff;
   border: none;
   padding: 15px 25px;
   font-size: 16px;
@@ -39,12 +37,9 @@ background:#000041;
   align-content: center;
   transition: background 0.3s ease;
 }
-
 #menu-button:hover {
-    background: #1d0cc6;
+  background: #1d0cc6;
 }
-
-/* Lista de navegação */
 #menu {
   list-style-type: none;
   margin: 10px 5px 0;
@@ -53,11 +48,9 @@ background:#000041;
   background: #2710f2;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 #menu li:last-child {
   border-bottom: none;
 }
-
 #menu li a {
   display: block;
   padding: 10px;
@@ -65,12 +58,9 @@ background:#000041;
   color: #fff;
   transition: background-color 0.3s;
 }
-
 #menu li a:hover {
   background-color: #1d0cc6;
 }
-
-/* Classe para ocultar o menu */
 .hidden {
   display: none;
 }
@@ -80,4 +70,59 @@ background:#000041;
   width: 20%;
   justify-content: center;
   align-items: center;
+}
+.aboutme {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.aboutme-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 80%;
+  background: #13089a;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 100%;
+}
+.aboutme-text h1 {
+    margin: 0;
+    padding: 0;
+  font-size: 60px;
+  position: relative;
+  color: #000 ;
+  background: linear-gradient(to right, #103c0d 20%,#693067 ,#002f32 100% );
+  background-clip: text;
+  -webkit-text-stroke: .06em transparent;
+  padding: 15px;
+  letter-spacing: 2px;
+}
+.aboutme-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+gap: 10px;
+}
+.aboutme-text p {
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.aboutme-text h3 {
+    margin: 0;
+    padding: 0;
+  font-size: 20px;
+letter-spacing: 2px;
+}
+.aboutme-text img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin: 15px;
 }
