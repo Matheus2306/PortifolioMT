@@ -114,7 +114,7 @@
 .aboutme-text img {
   max-width: 200px;
   max-height: 200px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin: 15px;
 }
 .align{
@@ -137,4 +137,12 @@ gap: 20px;
 }
 .margin-Page{
   margin-top: 200px;
+}
+.adjust{
+max-width: 18rem;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
