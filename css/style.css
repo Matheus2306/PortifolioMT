@@ -1,4 +1,4 @@
-body {
+.all {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,14 +6,9 @@ body {
   color: #fff;
 }
 .nav-bar {
-  display: flex;
   width: 100%;
-  height: 100px;
   background: linear-gradient(100deg, #0a046d 2%, #2710f2 100%);
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+
 }
 .nav-itens {
   width: 100%;
@@ -22,6 +17,8 @@ body {
   align-items: center;
 }
 .nav-itens p {
+  text-align: center;
+  color: #fff;
   margin: 0;
   padding: 0;
   width: 20%;
@@ -72,57 +69,71 @@ body {
   align-items: center;
 }
 .aboutme {
-  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .aboutme-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #13089a;
   border-radius: 5px;
-  margin-top: 50px;
-  height: 100%;
 }
 .aboutme-text h1 {
-    margin: 0;
-    padding: 0;
-  font-size: 60px;
+  margin: 0;
+  padding: 0;
   position: relative;
-  color: #000 ;
-  background: linear-gradient(to right, #103c0d 20%,#693067 ,#002f32 100% );
+  color: #000;
+  background: linear-gradient(to right, #103c0d 20%, #693067, #002f32 100%);
   background-clip: text;
-  -webkit-text-stroke: .06em transparent;
+  -webkit-text-stroke: 0.06em transparent;
   padding: 15px;
   letter-spacing: 2px;
 }
-.aboutme-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-gap: 10px;
+.aboutme-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .aboutme-text p {
-    margin: 0;
-    padding: 0;
-    max-width: 80%;
+  margin: 0;
+  padding: 0;
   font-size: 20px;
   color: #fff;
   letter-spacing: 2px;
 }
 .aboutme-text h3 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   font-size: 20px;
-letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 .aboutme-text img {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
-    margin: 15px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin: 15px;
+}
+.align{
+  display: flex;
+  justify-content: center;
+}
+.tec{
+  display: flex;
+  justify-content: center;
+gap: 20px;
+}
+.tec p{
+  padding: 10px;
+  border-radius: 5px;
+  background: #13089a;
+}
+.tec p:hover{
+  background: #1d0cc6;
+}
+.margin-Page{
+  margin-top: 200px;
 }
