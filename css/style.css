@@ -7,7 +7,9 @@
 }
 .nav-bar {
   width: 100%;
-  background: linear-gradient(100deg, #0a046d 2%, #2710f2 100%);
+  background: linear-gradient(45deg, #0a046d, #2710f2 );
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
 
 }
 .nav-itens {
@@ -145,4 +147,88 @@ max-width: 18rem;
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.experiences li{
+  margin-top: 5px;
+  padding: 5px;
+list-style: none;
+font-size: 20px;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 50%;
+  background: #13089a;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.grup-input{
+  position: relative;
+}
+.label{
+  position: absolute;
+padding: 0 5px;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 1em;
+  pointer-events: none;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+.contacts input{
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: #000 3px solid;
+  background: rgba(61, 61, 61,0.5);
+  outline: none;
+  width: 100%;
+}
+input:focus~label,input:valid~label{
+  top: 0px;
+  background: #13089a;
+  font-size: 0.7rem;
+}
+.contacts button{
+  max-width: 25%;
+  padding: 12px;
+  border-radius: 5px;
+  background: #0a046d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contacts button:hover{
+  background: #1d0cc6;
+}
+.margin-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background: linear-gradient(45deg, #0a046d, #2710f2 );
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
+  padding: 25px;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
