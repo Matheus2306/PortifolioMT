@@ -159,7 +159,6 @@ font-size: 20px;
   justify-content: center;
   gap: 20px;
   flex-direction: column;
-  width: 50%;
   background: #13089a;
   padding: 20px;
   border-radius: 5px;
@@ -194,9 +193,7 @@ input:focus~label,input:valid~label{
   font-size: 0.7rem;
 }
 .contacts button{
-  max-width: 25%;
-  padding: 12px;
-  border-radius: 5px;
+  max-width:30%;
   background: #0a046d;
   color: #fff;
   border: none;
@@ -206,6 +203,7 @@ input:focus~label,input:valid~label{
 .contacts button:hover{
   background: #1d0cc6;
 }
+
 .margin-button{
   display: flex;
   justify-content: center;
